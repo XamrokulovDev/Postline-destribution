@@ -43,7 +43,7 @@ const ModalRegister = ({ isOpen, onClose }: ModalRegisterProps) => {
       }
 
       try {
-        const response = await axios.post(`${_api}/contact-us`, {
+        const response = await axios.post(`https://food-story.onrender.com/api/contact-us`, {
           name: formData.name,
           email: formData.email,
           phone: formData.phone, 

@@ -26,7 +26,7 @@ const initialState: ProductState = {
 export const fetchProducts = createAsyncThunk(
   "products/fetchProducts",
   async () => {
-    const response = await axios.get(`${_api}/products`);
+    const response = await axios.get(`https://food-story.onrender.com/api/products`);
     return response.data.data; 
   }
 );

@@ -17,7 +17,7 @@ const PartnersSlider = () => {
 
   useEffect(() => {
     axios
-      .get(`${_api}/partners`)
+      .get(`https://food-story.onrender.com/api/partners`)
       .then((response) => {
         setPartners(response.data.data);
         setLoading(false);

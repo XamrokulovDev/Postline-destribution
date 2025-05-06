@@ -20,7 +20,7 @@ const Contact = () => {
 
   useEffect(() => {
     axios
-      .get(`${_api}/contact`)
+      .get(`https://food-story.onrender.com/api/contact`)
       .then((response) => {
         setContactInfo({
           phone: response.data.data.phone,

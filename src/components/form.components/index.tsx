@@ -42,7 +42,7 @@ const FormComponents: React.FC<FormComponentsProps> = ({ formId }) => {
     setLoading(true); 
   
     try {
-      const response = await axios.post(`${_api}/price-request`, formData);
+      const response = await axios.post(`https://food-story.onrender.com/api/price-request`, formData);
       
       if (response.data.success) {
         console.log("Form submitted successfully:", response.data);

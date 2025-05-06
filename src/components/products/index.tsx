@@ -15,7 +15,7 @@ const Products = () => {
     const fetchProducts = async () => {
       try {
         const response = await axios.get(
-          `${_api}/products`
+          `https://food-story.onrender.com/api/products`
         );
         setProducts(response.data.data); 
         setLoading(false); 
