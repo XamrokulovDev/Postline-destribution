@@ -1,0 +1,111 @@
+
+@media (min-width: 0px) and (max-width: 640px) {
+    .card-border {
+        border-left: none !important;
+        border-right: none !important;
+    }
+    .card-border-1 {
+        border-top: none !important;
+    }
+    .card-border-8 {
+        border-bottom: none !important;
+    }
+    .card-border-1,
+    .card-border-3,
+    .card-border-5,
+    .card-border-7
+    {
+        border-bottom: none !important;
+        border-top: none !important;
+    }
+    .card-border-2,
+    .card-border-4,
+    .card-border-6,
+    .card-border-8
+    {
+        border-right: none !important;
+    }
+    .card-border-7 {
+        border-bottom: none !important;
+    }
+
+}
+
+@media (min-width: 640px) and (max-width: 1280px) {
+    .card-border-1,
+    .card-border-3,
+    .card-border-5,
+    .card-border-7
+    {
+        border-left: none !important;
+        border-right: none !important;
+    }
+    .card-border-2,
+    .card-border-4,
+    .card-border-6,
+    .card-border-8
+    {
+        border-right: none !important;
+    }
+    .card-border-7,
+    .card-border-8 {
+        border-bottom: none !important;
+    }
+    .card-border-1,
+    .card-border-2 {
+        border-top: none !important;
+    }
+    .card-border-1,
+    .card-border-2,
+    .card-border-3,
+    .card-border-4,
+    .card-border-5,
+    .card-border-6,
+    .card-border-7,
+    .card-border-8 {
+        border-bottom: none !important;
+    }
+}
+
+@media (min-width: 1280px) {
+    .card-border-1 {
+        border-left: none !important;
+        border-top: none !important;
+    }
+    .card-border-4 {
+        border-right: none !important;
+        border-top: none !important;
+    }
+    .card-border-5 {
+        border-left: none !important;
+        border-bottom: none !important;
+    }
+    .card-border-8 {
+        border-right: none !important;
+        border-bottom: none !important;
+    }
+    .card-border-1,
+    .card-border-2,
+    .card-border-3,
+    .card-border-4
+    {
+        border-top: none !important;
+        border-bottom: none !important;
+    }
+    .card-border-5,
+    .card-border-6,
+    .card-border-7,
+    .card-border-8
+    {
+        border-bottom: none !important;
+    }
+    .card-border-1,
+    .card-border-2,
+    .card-border-3,
+    .card-border-5,
+    .card-border-6,
+    .card-border-7 
+    {
+        border-right: none !important;
+    }
+}
