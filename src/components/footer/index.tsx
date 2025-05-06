@@ -21,6 +21,7 @@ const Footer = () => {
 
   useEffect(() => {
     if (error) {
+      console.log("Xatolik yuz berdi:", error);
       setModalMessage(error);
       setIsModalOpen(true);
     }

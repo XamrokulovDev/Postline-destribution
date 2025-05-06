@@ -19,6 +19,7 @@ const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   const [modalOpen, setModalOpen] = useState(false);
   const [contactInfo, setContactInfo] = useState({
+    name: "",
     phone: "",
     email: "",
   });
@@ -28,6 +29,7 @@ const Navbar = () => {
       .get(`https://food-story.onrender.com/api/contact`)
       .then((response) => {
         setContactInfo({
+          name: response.data.data.name,
           phone: response.data.data.phone,
           email: response.data.data.email,
         });
